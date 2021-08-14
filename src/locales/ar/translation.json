@@ -6,5 +6,15 @@
   "contactMeLink": "تواصل",
   "myName": "بلال عواد",
   "contactInfo": "معلومات التواصل",
-  "bilalAvvad": "بلال عواد"
+  "bilalAvvad": "بلال عواد",
+  "formName": "الاسم",
+  "yourNamePlaceHolder": "...اسمك هو",
+  "formEmail": "البريد الإلكتروني",
+  "yourEmailPlaceHolder": "...بريدك الإلكتروني هو",
+  "formNumber": "رقم الهاتف",
+  "yourNumberPlaceHolder": "...رقم هاتفك هو",
+  "formMessage": "محتوى الرسالة",
+  "yourMessagePlaceHolder": "...رساتلك هي",
+  "formEmailControl": ".لن أقوم بمشاركة بريدك الإلكتروني بدون موافقتك",
+  "formSubmit": "!أرسل رسالتك"
 }

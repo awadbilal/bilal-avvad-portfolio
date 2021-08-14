@@ -6,5 +6,15 @@
   "contactMeLink": "Contact",
   "myName": "Bilal Avvad",
   "contactInfo": "Contact Information",
-  "bilalAvvad": "Bilal Avvad"
+  "bilalAvvad": "Bilal Avvad",
+  "formName": "Name",
+  "yourNamePlaceHolder": "Your Name is...",
+  "formEmail": "Email",
+  "yourEmailPlaceHolder": "Your Email is...",
+  "formNumber": "Number",
+  "yourNumberPlaceHolder": "Your Number is...",
+  "formMessage": "Message",
+  "yourMessagePlaceHolder": "Your Message is...",
+  "formEmailControl": "I'll never share your email with anyone else without your consent.",
+  "formSubmit": "Send Message!"
 }

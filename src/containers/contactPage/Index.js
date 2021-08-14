@@ -1,8 +1,9 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import './style.css';
-import ContactInformation from '../../components/contactInformation/Index';
 import { useTranslation } from 'react-i18next';
+import ContactInformation from '../../components/contactInformation/Index';
+import ContactForm from '../../components/contactForm/Index';
 
 function Index() {
   const { t, i18n } = useTranslation();
@@ -15,8 +16,10 @@ function Index() {
         </Row>
         <br />
         <Row>
-          <ContactInformation />
+          <Col xs={12} md={4}><ContactInformation /></Col>
+          <Col xs={12} md={8}><ContactForm /></Col>
         </Row>
+        <br />
       </Container>
     </div>
   );
