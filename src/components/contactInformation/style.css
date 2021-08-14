@@ -1,0 +1,23 @@
+h2 {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.informationCard {
+  border-radius: 30px !important;
+  padding: 0 !important;
+  margin-bottom: 3rem;
+  background-color: transparent !important;
+}
+
+.cardImage {
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.websiteImages{
+  display: flex;
+  justify-content: space-around;
+}
