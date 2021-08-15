@@ -6,10 +6,6 @@ a {
   color: #C5DECD !important;
 }
 
-span {
-  color: #FAC9B8;
-}
-
 .navBarSection {
   background-color: #495159;
 }
@@ -18,12 +14,14 @@ span {
   text-decoration: none;
   font-family: 'Changa', sans-serif;
   font-size: 1.3rem;
+  color: #FAC9B8;
 }
 
 .en {
   text-decoration: none;
   font-family: 'Lobster', cursive;
   font-size: 1.4rem;
+  color: #FAC9B8;
 }
 
 .languageButton {

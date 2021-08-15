@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css';
+import WorkExperience from '../../components/workShowCase/Index';
 
 function Index() {
   return (
     <>
-    <h1>Contact Information</h1>
+      <WorkExperience />
     </>
   );
 }

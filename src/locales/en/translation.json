@@ -17,5 +17,11 @@
   "yourMessagePlaceHolder": "Your Message is...",
   "formEmailControl": "I'll never share your email with anyone else without your consent.",
   "formSubmit": "Send Message!",
-  "reservedRights": "All rights reserved by Bilal Avvad 2021."
+  "reservedRights": "All rights reserved by Bilal Avvad 2021.",
+  "workSample": "Work Samples",
+  "workButton": "Click me to view!",
+  "theMovieDBADesc": "This website is purely built using HTML5, CSS3, and JavaScript. The main aim of this website is to display all information related of movies by fetching the information using TMDB API.",
+  "prmDesc": "This website is built using React. The aim of project manager is to have an organized workplace where you can login as either developer or a manager, you can see the list of projects and their tasks, and you can edit it as you like.",
+  "madLibsDesc": "This website is based upon JavaScript, this is a game for the younger generation, where they have to fill in the blanks according to what is missing, and you can see the output real-time view, its purpose is educational.",
+  "bootStrapDesc": "This website was built while practicing HTML5 and CSS3 and getting started on learning responsive designs, i have created this website with no functionalities, but just a design with CSS3 as a practice."
 }

@@ -1,27 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Cairo&family=Changa&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Cairo&family=Lobster&display=swap');
 
-a {
-  text-decoration: none;
-  color: #C5DECD !important;
-}
-
-span {
-  color: #FAC9B8;
-}
-
-.navBarSection {
+.footerSection {
   background-color: #495159;
+  text-align: center;
 }
 
 .footerar {
   text-decoration: none;
   font-family: 'Changa', sans-serif;
   font-size: 1rem;
+  color: #C5DECD !important;
 }
 
 .footeren {
   text-decoration: none;
   font-family: 'Lobster', cursive;
   font-size: 1rem;
+  color: #C5DECD !important;
 }

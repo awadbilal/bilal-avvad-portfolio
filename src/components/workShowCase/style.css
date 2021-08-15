@@ -1,0 +1,20 @@
+.cardHeader {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.webCard {
+  margin-bottom: 2%;
+  height: 100%;
+}
+
+.cardsCol {
+  margin-bottom: 3%;
+}
+
+.webCardBody {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
