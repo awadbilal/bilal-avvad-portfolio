@@ -102,10 +102,9 @@ function Index() {
             </Card>
           </Col>
         </Row>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', paddingBottom: '4rem'}}>
           <iframe style={{width: '100%', height: '80vh', alignSelf: 'center', justifySelf: 'center', display: view === true ? 'block' : 'none'}} src={websiteLink} title={websiteTitle} />
         </div> 
-        <br />
       </Container>
     </>
   );

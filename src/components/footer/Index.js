@@ -10,7 +10,7 @@ function Index() {
   return (
     <>
       <Navbar className='footerSection' collapseOnSelect >
-        <Container className='justify-content-around' expand="lg" sticky="bottom">
+        <Container className='justify-content-center' expand="lg">
           <a href='/' className={`footer` + i18n.language} style={{cursor: 'default'}}>
             {t('reservedRights')}
           </a>

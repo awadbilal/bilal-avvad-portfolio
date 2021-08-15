@@ -1,3 +1,5 @@
 .webContainer {
   background-color: #E1E1CF;
+  min-height: 100vh;
+  height: 100%;
 }

@@ -4,6 +4,9 @@
 .footerSection {
   background-color: #495159;
   text-align: center;
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
 }
 
 .footerar {
