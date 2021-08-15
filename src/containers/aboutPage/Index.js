@@ -10,7 +10,7 @@ function Index() {
   return (
     <Container>
       <Row>
-        <h1 className={i18n.language}>{t('home')}</h1>
+        <h1 className={i18n.language}>{t('aboutLink')}</h1>
       </Row>
     </Container>
   );
