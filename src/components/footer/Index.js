@@ -15,10 +15,10 @@ function Index() {
           <span className={i18n.language}>
             {t('myName')}
           </span>
-          <a href='/' className={i18n.language} style={{cursor: 'default'}}>
+          <a href='/' className={`footer` + i18n.language} style={{cursor: 'default'}}>
             {t('reservedRights')}
           </a>
-          <Link className={i18n.language} to='/contact-me'>
+          <Link className={`footer` + i18n.language} to='/contact-me'>
             {t('contactMeLink')}
           </Link>
         </Container>

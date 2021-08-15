@@ -14,14 +14,14 @@ span {
   background-color: #495159;
 }
 
-.ar {
+.footerar {
   text-decoration: none;
   font-family: 'Changa', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.en {
+.footeren {
   text-decoration: none;
   font-family: 'Lobster', cursive;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
