@@ -22,7 +22,6 @@ function Index() {
     e.target.name === websiteTitle ? isView(false) : isView(true);
     setWebsiteTitle(e.target.name);
     setWebsiteLink(websiteList[e.target.name]);
-    // isView(true);
   }
 
   return (
@@ -43,7 +42,7 @@ function Index() {
                 </Card.Text>
                 <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
                   <hr />
-                  <Button name="theMovieDBA" variant="primary" onClick={handleClick}>
+                  <Button name="theMovieDBA" variant="outline-info" onClick={handleClick} className='webCardButton'>
                     {t('workButton')}
                   </Button>
                 </div>
@@ -60,7 +59,7 @@ function Index() {
                 </Card.Text>
                 <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
                   <hr />
-                  <Button name="prm" variant="primary" onClick={handleClick}>
+                  <Button name="prm" variant="outline-info" onClick={handleClick} className='webCardButton'>
                     {t('workButton')}
                   </Button>
                 </div>
@@ -77,7 +76,7 @@ function Index() {
                 </Card.Text>
                 <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
                   <hr />
-                  <Button name="madLibsGame" variant="primary" onClick={handleClick}>
+                  <Button name="madLibsGame" variant="outline-info" onClick={handleClick} className='webCardButton'>
                     {t('workButton')}
                   </Button>
                 </div>
@@ -94,7 +93,7 @@ function Index() {
                 </Card.Text>
                 <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
                   <hr />
-                  <Button name="bootStrap" variant="primary" onClick={handleClick}>
+                  <Button name="bootStrap" variant="outline-info" onClick={handleClick} className='webCardButton'>
                     {t('workButton')}
                   </Button>
                 </div>
