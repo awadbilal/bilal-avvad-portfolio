@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
-import resumeImage from '../../locales/images/resume.jpg';
+import resumeImage from '../../locales/images/resume.png';
 import { useTranslation } from 'react-i18next';
 import github from '../../locales/images/github.png';
 import linkedin from '../../locales/images/linkedin.png';
