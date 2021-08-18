@@ -1,0 +1,89 @@
+@media only screen and (max-width: 767px) {
+  .rowView {
+    flex-direction: column-reverse !important;
+  }
+}
+
+.resumeTitles {
+  text-align: center;
+  line-height: 3rem;
+  padding: 1rem;
+}
+
+.educationDiv {
+  width: 100%;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.educationP {
+  border-top: 2px dashed;
+  border-color: blue !important;
+  margin: 0; padding: 1.7rem;
+  counter-increment: section;
+  position: relative;
+}
+
+.educationP:nth-child(even):before {
+  content: counter(section);
+  right: 100%;
+  margin-right: -1rem;
+  position: absolute;
+  border-radius: 50%;
+  padding: 1rem;
+  height: 1rem;
+  width: 1rem;
+  background-color: blue;
+  text-align:center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+.educationP:nth-child(odd):before {
+  content: counter(section);
+  left: 100%; 
+  margin-left: -1rem;
+  position: absolute;
+  border-radius: 50%;
+  padding: 1rem 1rem 1rem 1rem;
+  height: 1rem;
+  width: 1rem;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+.educationP:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+  margin-right: 2rem; 
+  padding-right: 0;
+}
+
+.educationP:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  margin-left: 2rem; 
+  padding-left: 0;
+}
+
+.educationP:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+
+.educationP:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+
+.skillSet {
+  text-align: center;
+  font-size: 1.3rem;
+}

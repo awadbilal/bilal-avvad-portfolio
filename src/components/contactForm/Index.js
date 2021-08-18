@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 
 function Index() {
 
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const [formData, setFormData] = useState({
     name: '',
@@ -32,21 +32,23 @@ function Index() {
     });
   }
 
+  const textAlignStyle = i18n.language === 'en' ? 'start' : 'end';
+
   return (
     <div>
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit} style={{textAlign: textAlignStyle}}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>
             {t('formName')}
           </Form.Label>
-          <Form.Control type="text" placeholder={t('yourNamePlaceHolder')} name='name' value={formData.name} onChange={handleChange} required />
+          <Form.Control type="text" placeholder={t('yourNamePlaceHolder')} name='name' value={formData.name} onChange={handleChange} style={{textAlign: textAlignStyle}} required />
         </Form.Group>
         <br />
         <Form.Group controlId="formBasicEmail">
           <Form.Label>
             {t('formEmail')}
           </Form.Label>
-          <Form.Control type="email" placeholder={t('yourEmailPlaceHolder')} name='email' value={formData.email} onChange={handleChange} required />
+          <Form.Control type="email" placeholder={t('yourEmailPlaceHolder')} name='email' value={formData.email} onChange={handleChange} style={{textAlign: textAlignStyle}} required />
           <Form.Text className="text-muted">{t('formEmailControl')}</Form.Text>
         </Form.Group>
         <br />
@@ -54,12 +56,12 @@ function Index() {
           <Form.Label>
             {t('formNumber')}
           </Form.Label>
-          <Form.Control type="number" placeholder={t('yourNumberPlaceHolder')} name='number' value={formData.number} onChange={handleChange} />
+          <Form.Control type="number" placeholder={t('yourNumberPlaceHolder')} name='number' value={formData.number} onChange={handleChange} style={{textAlign: textAlignStyle}} />
         </Form.Group>
         <br />
         <Form.Group controlId="formBasicEmail">
           <Form.Label>{t('formMessage')}</Form.Label>
-          <Form.Control as="textarea" rows={8} placeholder={t('yourMessagePlaceHolder')} name='message' value={formData.message} onChange={handleChange} />
+          <Form.Control as="textarea" rows={8} placeholder={t('yourMessagePlaceHolder')} name='message' value={formData.message} onChange={handleChange} style={{textAlign: textAlignStyle}} />
         </Form.Group>
         <hr />
         <div className="d-grid gap-2">
