@@ -16,8 +16,6 @@ function Index() {
   const navLinks = [
     <Nav.Link><Link className={i18n.language} to='/'>{t('homeLink')}</Link></Nav.Link>,
     <NavDropdown.Divider />,
-    <Nav.Link><Link className={i18n.language} to='/about'>{t('aboutLink')}</Link></Nav.Link>,
-    <NavDropdown.Divider />,
     <Nav.Link><Link className={i18n.language} to='/workSample'>{t('workSampleLink')}</Link></Nav.Link>,
     <NavDropdown.Divider />,
     <Nav.Link><Link className={i18n.language} to='/resume'>{t('resumeLink')}</Link></Nav.Link>,

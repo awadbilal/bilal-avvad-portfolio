@@ -35,7 +35,7 @@ function Index() {
   const textAlignStyle = i18n.language === 'en' ? 'start' : 'end';
 
   return (
-    <div>
+    <div className="contactMeForm">
       <Form onSubmit={handleSubmit} style={{textAlign: textAlignStyle}}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>
