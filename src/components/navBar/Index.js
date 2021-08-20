@@ -14,13 +14,13 @@ function Index() {
   };
 
   const navLinks = [
-    <Nav.Link><Link className={i18n.language} to='/'>{t('homeLink')}</Link></Nav.Link>,
+    <Nav.Link eventKey={1}><Link className={i18n.language} to='/'>{t('homeLink')}</Link></Nav.Link>,
     <NavDropdown.Divider />,
-    <Nav.Link><Link className={i18n.language} to='/workSample'>{t('workSampleLink')}</Link></Nav.Link>,
+    <Nav.Link eventKey={2}><Link className={i18n.language} to='/workSample'>{t('workSampleLink')}</Link></Nav.Link>,
     <NavDropdown.Divider />,
-    <Nav.Link><Link className={i18n.language} to='/resume'>{t('resumeLink')}</Link></Nav.Link>,
+    <Nav.Link eventKey={3}><Link className={i18n.language} to='/resume'>{t('resumeLink')}</Link></Nav.Link>,
     <NavDropdown.Divider />,
-    <Nav.Link><Link className={i18n.language} to='/contact-me'>{t('contactMeLink')}</Link></Nav.Link>,
+    <Nav.Link eventKey={4}><Link className={i18n.language} to='/contact-me'>{t('contactMeLink')}</Link></Nav.Link>,
   ]
 
   return (
