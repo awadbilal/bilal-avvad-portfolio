@@ -21,10 +21,10 @@ function Index() {
           {t("BAUENM")}
         </p>
         <p className='educationP'>
-          {t("BAUCMP")}
+          {t("REFEWD")}
         </p>
         <p className='educationP'>
-          {t("REFEWD")}
+          {t("BAUCMP")}
         </p>
       </div>
     </Col>,

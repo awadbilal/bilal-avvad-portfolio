@@ -37,8 +37,8 @@ function Index() {
         <p><b>{t('dearReader')}</b></p> 
         <p>{t('myself1')}{calculateAge}{t('myself2')}</p>
         <p>{t('homeENM')}</p>
-        <p>{t('homeCMP')}</p>
         <p>{t('homeREC')}</p>
+        <p>{t('homeCMP')}</p>
         <p>{t('homeEBU')}</p>
       </Col>
       <Row className="justify-content-center align-items-center pt-3 pb-2 forMore">

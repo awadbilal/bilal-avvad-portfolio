@@ -23,6 +23,12 @@
 .webCardButton {
   border-radius: 25px !important;
   font-size: 1.3rem !important;
+  text-decoration: none !important;
+  color: #0dcaf0 !important;
+}
+
+.webCardButton:hover {
+  color: #000000 !important;
 }
 
 h5.cardHeader.card-header {
